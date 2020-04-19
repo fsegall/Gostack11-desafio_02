@@ -35,7 +35,6 @@ function App() {
     <div>
       <ul data-testid='repository-list'>
         {repositories.map((repo) => {
-          console.log(typeof repo.id, repo.id);
           return (
             <li>
               <div>{repo.title}</div>
